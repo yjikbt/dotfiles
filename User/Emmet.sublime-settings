@@ -1,0 +1,2 @@
+// Disabled "Expand Abbreviation (Emmet)"
+{ "disabled_keymap_actions": "expand_abbreviation" }
