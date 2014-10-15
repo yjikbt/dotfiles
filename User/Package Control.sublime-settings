@@ -1,7 +1,9 @@
 {
 	"installed_packages":
 	[
+		"AndyPHP",
 		"Emmet",
+		"GitGutter",
 		"jQuery",
 		"Package Control",
 		"SFTP",
