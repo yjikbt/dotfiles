@@ -9,8 +9,8 @@
 	{ "keys": ["super+back_slash"], "command": "toggle_side_bar" },
 
 	// Auto complete
-	{ "keys": ["ctrl+h"], "command": "auto_complete" },
-	{ "keys": ["ctrl+h"], "command": "replace_completion_with_auto_complete", "context":
+	{ "keys": ["ctrl+j"], "command": "auto_complete" },
+	{ "keys": ["ctrl+j"], "command": "replace_completion_with_auto_complete", "context":
 		[
 			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
 			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
@@ -49,5 +49,7 @@
 		[
 			{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
 		]
-	}
+	},
+	{ "keys": ["ctrl+v"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["ctrl+w"], "command": "move", "args": {"by": "subword_ends", "forward": true} }
 ]
