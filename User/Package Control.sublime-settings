@@ -1,14 +1,18 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"AndyPHP",
 		"Emmet",
+		"Git",
 		"GitGutter",
 		"GotoDocumentation",
+		"JavaScriptNext - ES6 Syntax",
 		"jQuery",
-		"Nodejs",
 		"Package Control",
 		"SFTP",
+		"SyncedSideBar",
 		"Theme - Flatland",
 		"Theme - Spacegray"
 	]
